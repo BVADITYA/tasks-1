@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Task-6</title>
+</head>
+<style>
+    div{
+        text-align: center;
+    }
+    #i1{
+        border-radius: 50% 50% 50% 50%;
+        height: 100px;
+    }
+    #s1{
+        width: 250px;
+        background-color: rgb(35, 179, 35);
+        color: white;
+    }
+    #s2{
+        background-color: red;
+        color: white;
+    }
+    #r1{
+        background-color:rgb(243, 243, 243);
+    }
+    #r1 h5{
+        display:inline;
+        float: right;
+    }
+   
+</style>
+<body>
+    <div >
+        <img src="./login.jpg.png" alt="Profile picture" id="i1"><br>
+    </div>
+    <table align="center">
+        <tr >
+            <td >
+                <label for="UN" ><b>Username</b></label><br/>
+                <input type="text" name="UN" placeholder="Enter Username"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="PW"><b>Password</b></label><br/>
+                <input type="password" name="PW" placeholder="Enter Password"
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <br>
+                <input type="submit" value="login" id="s1"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox">Remember me
+            </td>
+        </tr>
+        <tr id="r1">
+            <td>
+                <input type="submit" value="Cancel" id="s2"/>     
+                <h5 > Forgot <a href="">password?</a></h5>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
